@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://kit.fontawesome.com/28c0af3030.js" crossorigin="anonymous">
+  <title>RIO's Network Engineer Portfolio</title>
+</head>
+
+<body>
+  <!-- Overlay -->
+  <section id="overlay"></section>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <!-- Logo -->
+        <div class="navbar__logo">
+          <img src="./img/logo.svg" alt="website logo">
+        </div>
+        <!-- Links -->
+        <ul class="navbar__links">
+          <li class="navbar__link"><a href="#works"><b><em>Projects</em></b></a></li>
+          <li class="navbar__link"><a href="#about"><b><em>AboutMe</em></b></a></li>
+          <li class="navbar__link"><a href="#resume"><b><em>Resume</em></b></a></li>
+          <!-- Contact button -->
+          <li class="navbar__link"><a href="#contact"><b><em>ContactMe</em></b></a></li>
+        </ul>
+        <!-- Menu button -->
+        <div class="navbar__icons">
+          <div class="navbar__icon"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Banner -->
+  <section id="banner">
+    <div class="container">
+      <!-- Image -->
+      <div class="banner__img">
+        <img src="./img/banner-img.png" alt="illustration of RIO">
+      </div>
+      <!-- Heading and description -->
+      <div class="banner__heading">
+        <h1>Welcome to My Network Engineering World</h1>
+        <p>I'm RIO, a dedicated Network Engineer with a passion for building and optimizing network infrastructures.
+          Let's connect and explore my journey!</p>
+        <a href="#"><button class="banner__btn">Learn More</button></a>
+        <!-- Social media links -->
+        <div class="banner__socials">
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <!-- Left decoration -->
+      <div class="about__dec">
+        <img src="./img/about-dec-l.png" alt="illustration of leaf">
+      </div>
+
+      <br>
+      <!-- About Me heading -->
+      <center>
+        
+        <h1><strong>About Me</strong></h1>
+        <br><br>
+        <!-- Introduction -->
+        <div class="about__intro">
+          <h2>
+            <p>Hello! I'm RIO, a highly motivated Network Engineer specializing in designing, implementing, and managing
+              robust network solutions. With a strong foundation in computer networking and data communication, I'm
+              dedicated to ensuring seamless data transmission and network security.</p>
+            <p>My expertise includes:</p>
+            <!-- List of skills -->
+            <ul class="about__skills">
+              <p>Network Architecture Design</p>
+              <p>Firewall Configuration</p>
+              <p>Routing and Switching</p>
+              <p>Network Security</p>
+              <p>LAN/WAN Optimization</p>
+            </ul>
+          </h2>
+        </div> <br><br>
+        <!-- Call to action button -->
+        <div class="about__cta">
+          <a href="#contact"><button>Contact Me</button></a>
+        </div>
+      </center>
+    </div>
+  </section><br><br><br>
+  <!-- Projects heading -->
+  <section id="works">
+    <center>
+      <h2>My Projects</h2>
+    </center><br>
+    <!-- Project cards using Grid Layout -->
+    <div class="works__cards">
+      <!-- Project 1 -->
+      <div class="works__card">
+        <img src="./img/work-1.png" alt="Project 1">
+        <h1>Network Infrastructure Upgrade</h1>
+        <p>Revamped and enhanced a corporate network infrastructure, resulting in a 30% increase in data transfer
+          efficiency.</p>
+      </div>
+      <!-- Project 2 -->
+      <div class="works__card">
+        <img src="./img/work-2.png" alt="Project 2">
+        <h1>Security Firewall Implementation</h1>
+        <p>Implemented a robust firewall solution, reducing security vulnerabilities and ensuring data protection.</p>
+      </div>
+      <!-- Project 3 -->
+      <div class="works__card">
+        <img src="./img/work-3.png" alt="Project 3">
+        <h1>LAN Optimization</h1>
+        <p>Optimized a local area network for a large organization, resulting in reduced latency and improved network
+          performance.</p>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+
+      <!-- Contact heading -->
+      <div class="container">
+        <center>
+          <h2>Contact Me</h2>
+        </center>
+        <!-- Contact form -->
+        <form action="#" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer__content">
+        <!-- Footer image -->
+        <div class="footer__img">
+          <center right> <img src="./img/footer-img.png" alt="illustration of RIO"></center>
+        </div>
+        <!-- Footer heading and contact information -->
+        <div class="footer__info">
+          <br><br>
+          <h2>Let's Build a Connected World Together!</h2>
+          <!-- Contact details -->
+          <div class="footer__contact">
+            <div id="footer_contact" class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <p>Phone: <a href="tel:0559681638">055 968 1638</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>Email: <a href="mailto:truongb2004761@student.ctu.edu.vn">truongb2004761@student.ctu.edu.vn</a></p>
+            </div>
+          </div>
+          <!-- Social media links -->
+          <div class="footer__socials">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RÉSUME-->
+    <section id="resume">
+      <div class="container">
+        <!-- Liên kết tải về CV -->
+        <div class="download-cv">
+          <a href="link_tới_tệp_CV_của_CV.pdf" download>
+            <h2>RESUME</h2>
+            <button>Download CV</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Bubble Contact -->
+
+    </a>
+    <div class="contact-bubble" >
+      <i class="fas fa-comment-alt"><a href="#footer_contact">Contact</i>
+      <div class="contact-info">
+        <p>Phone: <a href="tel:0559681638">055 968 1638</a></p>
+        <p>Email: <a href="mailto:truongb2004761@student.ctu.edu.vn">truongb2004761@student.ctu.edu.vn</a></p>
+        </li>
+      </div>
+    </div>
+
+    <!-- Trở về đầu trang -->
+    <div class="scroll-to-top">
+      <a href="#top">
+        <i class="fas fa-chevron-up"></i> Back to Top
+      </a>
+    </div>
+
+
+    <!-- Main JavaScript -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
